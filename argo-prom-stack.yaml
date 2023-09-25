@@ -16,7 +16,8 @@ spec:
       valueFiles:
         - values.yaml
     repoURL: https://github.com/sebihiy/kube-prometheus-stack
-    targetRevision: main
+    targetRevision: HEAD
+    path: ./
   syncPolicy:
     syncOptions:
     - ServerSideApply=true
