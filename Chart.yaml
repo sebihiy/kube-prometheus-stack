@@ -60,4 +60,4 @@ sources:
 - https://github.com/sebihiy/kube-prometheus-stack
 - https://github.com/prometheus-operator/kube-prometheus
 type: application
-version: 51.2.0
+version: main
